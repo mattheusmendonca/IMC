@@ -8,12 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var tfPeso: UITextField!
+    
+    @IBOutlet weak var tfAltura: UITextField!
+    
+    @IBOutlet weak var lbResultado: UILabel!
+    
+    @IBOutlet weak var ivResultado: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func calcular(_ sender: Any) {
+        
+    }
+    
 }
 
