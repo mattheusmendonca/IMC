@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
     }
 
     @IBAction func calcular(_ sender: Any) {
@@ -31,8 +32,8 @@ class ViewController: UIViewController {
         }
     }
     func showResults(){
-        var result: String = "";
-        var image: String = "";
+        var result: String = "alguma coisa"
+        var image: String = "alguma coisa"
     }
     
 }
